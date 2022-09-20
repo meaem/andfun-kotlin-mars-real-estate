@@ -42,7 +42,7 @@ class OverviewFragment : Fragment() {
      */
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        // TODO (10) Switch to inflating GridViewItemBinding
+        // TODOo (10) Switch to inflating GridViewItemBinding
         val binding = GridViewItemBinding.inflate(inflater)
 
         // Allows Data Binding to Observe LiveData with the lifecycle of this Fragment
